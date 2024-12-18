@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container ">
+        <h1>Todo App</h1>   
+        <form id="task-form">
+            <input type="text" id="task-name" placeholder="Task Name" required>
+            <input type="date" id="task-due-date" required>
+            <select id="task-priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+        <input type="text" id="search-bar" placeholder="Search tasks...">
+        <select id="sort-tasks">
+            <option value="name">Sort by Name</option>
+            <option value="dueDate">Sort by Due Date</option>
+        </select>
+        <ul id="task-list"></ul>
+        <button id="clear-completed">Clear Completed Tasks</button>
+        <button id="theme-toggle">Toggle Theme</button>
+        <div id="progress-tracker">
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <span id="progress-text"  >0%</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+ody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+ 
+    max-width: 600px;
+    margin: auto;
+    background: #e0eefc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input[type="text"], input[type="date"], select {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(137, 137, 131);
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.overdue {
+    color: red;
+}
+
+
+.dark-theme{
+    color: #000000;
+    background: rgb(50, 48, 48);
+}
+
+
+
+#progress-tracker {
+    margin-top: 20px;
+}
+
